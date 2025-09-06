@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    min-height: 100vh;
+    background-image: url('../img/img_2.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p {
+    color: rgb(187, 187, 187);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    position: relative;
+    bottom: 40px;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    bottom: 50px;
+    padding: 10px 20px;
+    background-color: #d0d4d4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #919292;
+}
+
+.trans-button {
+    position: relative;
+    display: inline-block;
+    bottom: 50px;
+    padding: 10px 20px;
+    background-color: #999696;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .trans-button:hover {
+    background-color: #4e4e4e;
+  }
+  
+  .trans-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Transisi Halaman (sesuaikan dengan preferensi Anda) */
+  body {
+    transition: all 0.5s ease;
+  }
+  
+  a {
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    transform: scale(1.1);
+  }
+  

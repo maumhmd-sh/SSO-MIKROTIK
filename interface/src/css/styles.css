@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 80vh;
+    background: #f0f2f5; /* Background color */
+    color: #333; /* Text color */
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+
+  .date-info {
+    margin-top: 10px; /* Sesuaikan margin atas sesuai kebutuhan */
+    font-size: 14px; /* Sesuaikan ukuran font sesuai kebutuhan */
+    color: #000000; /* Warna teks tanggal */
+  }
+  
+  
+  .sidebar {
+    width: auto;
+    background: #3AA6B9; /* Light sidebar background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .sidebar-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .user-profile {
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .user-info p {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
+  .sidebar-nav ul {
+    list-style: none;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-nav ul li {
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  .sidebar-nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 16px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s;
+  }
+  
+  .sidebar-nav ul li a:hover {
+    background: #43bfd4; /* Hover background */
+    /* border-radius: 5px; */
+    width: 200px;
+  }
+  
+  .sidebar-nav ul li a i {
+    margin-right: 15px;
+  }
+
+  ul li a img {
+    width: 24px; /* Sesuaikan lebar gambar sesuai kebutuhan */
+    height: 24px; /* Sesuaikan tinggi gambar sesuai kebutuhan */
+    margin-right: 10px; /* Jarak antara gambar dan teks (opsional) */
+    vertical-align: middle; /* Menyelaraskan gambar secara vertikal */
+    fill: aqua;
+  }
+  
+  .sidebar-footer ul {
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .sidebar-footer ul li {
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  .sidebar-footer ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 16px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-footer ul li a:hover {
+    background: #43bfd4; /* Hover background */
+    width: 200px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 36px;
+    font-weight: 600;
+    color: #6e8efb; /* Accent color */
+  }
+  
+  .error {
+    color: red;
+    font-size: 15px;
+    /* margin-top: 10px; */
+}
+
+.logs {
+  background-color: #f7f7f7;
+  width: 800px;
+  height: 340px;
+  margin: 20px auto;
+  border: 10px;
+  padding: 20px;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.log-entry {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.log-entry p {
+  margin: 0;
+}
+
+.log-entry .timestamp {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.log-entry .message {
+  margin-top: 1px;
+  font-size: 12px;
+}

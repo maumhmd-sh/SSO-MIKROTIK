@@ -1,0 +1,206 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d1caca;
+    color: #333;
+    height: 100%;
+}
+
+.message {
+    color: rgb(112, 163, 35);
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left-side {
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+    color: #fff;
+}
+
+.text-center h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.text-center p {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.right-side {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0dada;
+    background-image: url(../img/img_2.png);
+    background-size: 110%;
+}
+
+.login-form {
+    color: #333;
+    position: relative;
+    right: 80px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.title {
+    position: relative;
+    right: 120px;
+    bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.subtitle {
+    position: relative;
+    right: 160px;
+    top: 15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.welcome-text {
+    /* position: relative;
+    right: 80px; */
+    color: #888;
+}
+
+.form-group {
+    /* position: relative;
+    right: 80px; */
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.remember-me {
+    margin-right: 0.5rem;
+}
+
+.forgot-password a {
+    color: #39424b;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.form-actions {
+    margin-top: 1rem;
+}
+
+.btn-login {
+    position: relative;
+    width: 50%;
+    padding: 0.75rem;
+    background-color: #54606d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.btn-login:hover {
+    background-color: #39424b;
+}
+
+.btn-register {
+    position: relative;
+    left: 230px;
+    bottom: 48px;
+    width: 50%;
+    padding: 0.75rem;
+    background-color: #f4f4f4;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    background-color: #e2e2e2;
+}
+
+.divider {
+    text-align: center;
+    margin: 1rem 0;
+    color: #888;
+}
+
+.btn-google {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-google img {
+    margin-right: 0.5rem;
+}
+
+.signup-text {
+    /* position: relative;
+    right: 80px; */
+    text-align: center;
+    color: #888;
+}
+
+.signup-text a {
+    color: #39424b;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}

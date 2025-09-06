@@ -1,9 +1,6 @@
 # SSO-MIKROTIK
 
-![GitHub Repo stars](https://img.shields.io/github/stars/maumhmd-sh/SSO-MIKROTIK?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/maumhmd-sh/SSO-MIKROTIK?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/maumhmd-sh/SSO-MIKROTIK?style=flat-square)
-![License](https://img.shields.io/github/license/maumhmd-sh/SSO-MIKROTIK?style=flat-square)
+![MikroTik](https://img.shields.io/badge/MikroTik-CC0000?style=flat-square&logo=mikrotik&logoColor=white)
 
 ---
 
